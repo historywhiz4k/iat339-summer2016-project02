@@ -2,9 +2,13 @@
 	box-sizing: border-box;
 }
 
+.main-grid {
+	width: 60em;
+}
+
 .nav-grid {
 	background-color: #990000;
-	width: 20em;
+	max-width: 20em;
 	height: 100em;
 }
 
@@ -13,6 +17,10 @@
 	width: 20em;
 	height: 20em;
 
+}
+
+.content-grid {
+	width: 40em;
 }
 
 .listing {
