@@ -3,12 +3,13 @@
 }
 
 .main-grid {
+	width: 60%;
 }
 
 .nav-grid {
 	background-color: #990000;
 	max-width: 20em;
-	height: 100em;
+	height: 50em;
 }
 
 .mainlogo {
