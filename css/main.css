@@ -1,6 +1,7 @@
 body {
 	font-family: "Open Sans", sans-serif;
-	padding: 2rem;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 
@@ -75,7 +76,7 @@ section code {
 	background-color: #990000;
 	text-decoration: none;
 	width: 100%;
-	min-width: 20em;
+	min-width: 20%;
 	-webkit-transition: background-color 0.5s ease-out;
 	transition: background-color 0.5s ease-out;
 }
