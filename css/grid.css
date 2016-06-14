@@ -5,6 +5,7 @@
 [class*="grid-"] {
 	float: left;
 	border: 0.1em solid #000000;
+	min-width: 20em;
 }
 
 .grid-main {
@@ -19,11 +20,10 @@
 .grid-nav {
 	background-color: #990000;
 	max-width: 20em;
-	height: 50em;
 }
 
 .grid-content {
-	width: 60%
+	max-width: 40%;
 }
 
 /*

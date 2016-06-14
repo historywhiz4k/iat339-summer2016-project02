@@ -8,6 +8,7 @@ h1 {
 	font-size: 2em;
 	font-weight: 700;
 	color: #ff0000;
+	padding: 1em 1em;
 }
 
 h2 {
@@ -32,6 +33,7 @@ h4 {
 
 p {
 	color: #000000;
+	padding: 2em 2em;
 }
 
 a {
