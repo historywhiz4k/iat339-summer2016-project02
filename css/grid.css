@@ -3,7 +3,13 @@
 }
 
 .main-grid {
-	width: 60%;
+	width: 100%;
+}
+
+.mainlogo {
+	background-color: #000000;
+	max-width: 20em;
+	height: 20em;
 }
 
 .nav-grid {
@@ -12,20 +18,12 @@
 	height: 50em;
 }
 
-.mainlogo {
-	background-color: #000000;
-	max-width: 20em;
-	height: 20em;
-
-}
-
 .content-grid {
-	max-width: 40em;
-	float: right;
+	float: left;
 }
 
 .listing {
-	<
+
 	display: -webkit-flex; /*for browsers that do not support Flexbox*/
 	display: -ms-flex; /*for Internet Explorer browsers that do not support Flexbox*/
 	display: flex; /*written last, as it overrides the other two*/
