@@ -9,7 +9,7 @@
 }
 
 .grid-main {
-	width: 100%;
+	width: 20em;
 }
 
 .grid-logo {
@@ -24,6 +24,12 @@
 
 .grid-content {
 	max-width: 40%;
+}
+
+@media (min-width: 40em) {
+	.grid-main {
+		width: 100%;
+	}
 }
 
 /*
