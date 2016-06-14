@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1em; 
+	color: black;
+	padding: 1em;
+}
+
+
+h1 {
+	font-size: 2.5rem; 
+}
+
+
+h2 {
+	font-weight: normal;
+	font-size: 2rem; 
+}
+
+
+h2 a {
+	font-style: italic;
+}
+
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.3em; 
+	text-align: left;
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+.header{
+  background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/*--TWO COLUMN SYSTEM FOR THE MENU AND CONTENT -*/
+
+
+/*-- BACKGROUND COLORING FOR THE GRID ELEMENTS -*/
+.button-nav, .button-nav:visited {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.5em;
+	width: 200px;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+
+.button-nav.bg1 {
+	background-color: red;
+}
+
+
+.button-nav.bg2 {
+	background-color: red;
+}
+
+
+.button-nav.bg3 {
+	background-color: red;
+}
+
+
+.button-nav.bg4 {
+	background-color: red;
+}
+
+.button-nav.bg5 {
+	background-color: red;
+}
+
+
+.button-nav:hover, .button-nav:active, .button-nav:focus {
+	background-color: gray;
+	color: white;
+}
