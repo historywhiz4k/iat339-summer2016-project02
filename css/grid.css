@@ -2,31 +2,36 @@
 	box-sizing: border-box;
 }
 
-.main-grid {
+[class*="grid-"] {
+	float: left;
+	border: 0.1em solid #000000;
+}
+
+.grid-main {
 	width: 100%;
 }
 
-.mainlogo {
+.grid-logo {
 	background-color: #000000;
 	max-width: 20em;
-	height: 20em;
 }
 
-.nav-grid {
+.grid-nav {
 	background-color: #990000;
 	max-width: 20em;
 	height: 50em;
 }
 
-.content-grid {
-	float: left;
+.grid-content {
+	width: 60%
 }
 
+/*
 .listing {
 
-	display: -webkit-flex; /*for browsers that do not support Flexbox*/
-	display: -ms-flex; /*for Internet Explorer browsers that do not support Flexbox*/
-	display: flex; /*written last, as it overrides the other two*/
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
 
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
@@ -51,3 +56,4 @@
 .listing-description {
 	flex-basis: 30em;
 }
+*/
