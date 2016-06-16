@@ -39,10 +39,9 @@
 	padding: 0em 1em;
 }
 
-.grid-progressbar {
+.grid-options {
 	min-width: 30em;
-	min-height: 5em;
-	border: 0.1em solid #000000;
+	/*border: 0.1em solid #000000;*/
 	margin: 2em;
 	padding: 0em 1em;
 }
