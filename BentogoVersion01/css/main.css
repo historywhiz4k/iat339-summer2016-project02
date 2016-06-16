@@ -62,6 +62,10 @@ form {
 	padding: 1.5em;
 }
 
+figure{
+	display: inline-block;
+}
+
 /*
 
 section {
