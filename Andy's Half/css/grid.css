@@ -1,4 +1,6 @@
 *, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -8,7 +10,11 @@
 	min-width: 20em;
 }
 
-.grid-main {
+/*main grid size*/
+.grid-main:after {
+	content: "";
+	display: block;
+	clear: both;
 	width: 20em;
 }
 
@@ -17,13 +23,29 @@
 	max-width: 20em;
 }
 
+
 .grid-nav {
 	background-color: #990000;
 	max-width: 20em;
+
 }
 
 .grid-content {
 	max-width: 40%;
+}
+
+
+/*-- testing code for responsiveness */
+@media (min-width: 30em) {
+	.grid-logo {
+		width: 20%;
+	}
+}
+
+@media (min-width: 40em) {
+	.grid-content {
+		width: 50%;
+	}
 }
 
 @media (min-width: 40em) {
@@ -31,6 +53,9 @@
 		width: 100%;
 	}
 }
+
+
+
 
 /*
 .listing {
