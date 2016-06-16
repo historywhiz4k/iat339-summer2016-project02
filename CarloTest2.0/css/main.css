@@ -8,7 +8,7 @@ h1 {
 	font-size: 2em;
 	font-weight: 700;
 	color: #ff0000;
-	padding: 1em 1em;
+	padding: 0em 1em;
 }
 
 h2 {
@@ -16,6 +16,7 @@ h2 {
 	font-size: 1.5em;
 	font-weight: 700;
 	color: #ff0000;
+	padding: 0em 1em;
 }
 
 h3 {
@@ -97,6 +98,7 @@ section code {
 .button-order {
 	display: inline-block;
 	padding: 0.5em 2em;
+	margin: 0.5em 0em;
 	color: #ffffff;
 	background-color: #990000;
 	text-decoration: none;
@@ -112,6 +114,10 @@ section code {
 
 .button-order:visited {
 	color: #ffffff;
+}
+
+.content-img {
+	padding: 0em 2em;
 }
 
 
