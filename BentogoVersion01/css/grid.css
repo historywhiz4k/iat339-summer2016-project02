@@ -23,12 +23,11 @@
 }
 
 .grid-content {
-	max-width: 65%;
+	max-width: 40%;
 }
 
 .grid-subcontent {
-	min-width: 60em;
-	max-width: 60%;
+	min-width: 40%;
 }
 
 .grid-item {
