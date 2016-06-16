@@ -24,6 +24,7 @@ h3 {
 	font-size: 1.25em;
 	font-weight: 700;
 	color: #000000;
+	padding: 0em, 2em;
 }
 
 h4 {
@@ -32,9 +33,13 @@ h4 {
 	color: #000000;
 }
 
+strong {
+	padding: 1.5em;
+}
+
 p {
 	color: #000000;
-	padding: 2em 2em;
+	padding: 1em 2em;
 }
 
 a {
@@ -54,7 +59,7 @@ ul {
 }
 
 form {
-	padding: 1em;
+	padding: 1.5em;
 }
 
 /*
