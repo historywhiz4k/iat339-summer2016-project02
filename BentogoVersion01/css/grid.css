@@ -4,26 +4,24 @@
 
 [class*="grid-"] {
 	float: left;
-	/*border: 0.1em solid #000000;*/
-	min-width: 20em;
 }
 
 .grid-main {
-	width: 20em;
+	width: 80%;
 }
 
 .grid-logo {
 	background-color: #000000;
-	max-width: 20em;
+	max-width: 25%;
 }
 
 .grid-nav {
 	background-color: #990000;
-	max-width: 20em;
+	max-width: 100%;
 }
 
 .grid-content {
-	max-width: 40%;
+	max-width: 75%;
 }
 
 .grid-subcontent {
@@ -64,7 +62,7 @@
 	padding: 1em 1em;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 30em) {
 	.grid-main {
 		width: 100%;
 	}
