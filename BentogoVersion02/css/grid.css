@@ -1,0 +1,122 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class*="grid-"] {
+	float: left;
+	/*border: 0.1em solid #000000;*/
+}
+
+.grid-main {
+	max-width: 60%;
+	position: relative;
+	left: 20%;
+	background-color: #ffffff;
+}
+
+.grid-logo {
+	background-color: #000000;
+	max-width: 30%;
+	min-width: 20em;
+	text-align: center;
+}
+
+.grid-nav {
+	background-color: #990000;
+	min-width: 20em;
+}
+
+.grid-content {
+	width: 70%;
+	max-width: 100%;
+	padding: 0em 2em;
+}
+
+.grid-subcontent {
+	min-width: 40%;
+}
+
+.grid-item {
+	min-width: 10em;
+	margin: 2em;
+}
+
+.grid-icon {
+	min-width: 10em;
+	height: 10em;
+	border: 0.1em solid #000000;
+	padding: 0em 1em;
+}
+
+.grid-icon-large {
+	min-width: 40em;
+	height: 10em;
+	border: 0.1em solid #000000;
+	padding: 0em 1em;
+}
+
+.grid-options {
+	min-width: 30em;
+	margin: 2em;
+	padding: 0em 1em;
+}
+
+.grid-description {
+	width: 15em;
+	height: 10em;
+	padding: 1em 1em;
+}
+
+@media (max-width: 1000px) {
+	body {
+		font-size: 2em;
+	}
+	.grid-main {
+		left: 0%;
+		max-width: 100%;
+	}
+	.grid-logo {
+		max-width: 100%;
+	}
+	.grid-content {
+		width: 100%;
+	}
+	.button-nav {
+		text-align: center;
+	}
+	.grid-item {
+		margin: 1em;
+	}
+}
+
+/*
+.listing {
+
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	align-items: stretch;
+
+	min-width: 60em;
+	background-color: #ffeecc;
+	padding: 1em 1em;
+
+}
+
+.listing-img {
+	flex-basis: 12em;
+}
+
+.listing-name {
+	flex-basis: 13em;
+}
+
+.listing-description {
+	flex-basis: 30em;
+}
+*/
