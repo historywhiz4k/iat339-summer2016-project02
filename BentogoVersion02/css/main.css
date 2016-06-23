@@ -143,6 +143,10 @@ section code {
 	height: 100%;
 }
 
+.productpage-img {
+	width: 50%;
+}
+
 .progressbar {
 	width: 288px;
 	height: 72px;
