@@ -29,46 +29,112 @@
 
 					<source srcset="img/logo_bentogo-main.gif 1x">
 
+					
 					<img src="img/logo_bentogo-main.gif" srcset="img/logo_bentogo-small.gif 1x" alt="Bentogo Logo">
+					
 
 				</picture>
 
 				<div class="grid-nav">
 				
-					<a href="#account" class="button-nav">My Account</a>
-					<a class="button-nav" href="bentogo_catalogue-mycart.html">My Order (0 Items)</a>
-					<a class="button-nav" href="bentogo_catalogue-step-01.html">Bento Catalogue</a>
-					<a class="button-nav" href="bentogo_custom-bento-step-01.html">Custom Bento</a>
-					<a class="button-nav" href="bentogo_newsfeed.html">Newsfeed</a>
-					<a class="button-nav" href="bentogo_contact-us.html">Contact Us</a>
+				<a href="#account" class="button-nav">My Account</a>
+				<a class="button-nav" href="bentogo_catalogue-mycart.html">My Order (0 Items)</a>
+				<a class="button-nav" href="bentogo_catalogue-step-01.html">Bento Catalogue</a>
+				<a class="button-nav" href="bentogo_custom-bento-step-01.html">Custom Bento</a>
+				<a class="button-nav" href="bentogo_newsfeed.html">Newsfeed</a>
+				<a class="button-nav" href="bentogo_contact-us.html">Contact Us</a>
+				<a class="button-nav" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 
 				</div>
+
+				<script>
+				function myFunction() {
+   				 document.getElementsByClassName("button-nav")[0].classList.toggle("responsive");
+				}
+				</script>
 
 			</div>
 
 			<div class="grid-content">
 
-				<h1>INSERT HOME PAGE HEADING</h1>
-				<p>INSERT HOME PAGE HEADING SUBTITLE<p>
+				<h1>BENTOGO: LUNCHBOX DELIVERY</h1>
+				<p>Japanese style lunchboxes made the way you want and delivered to you. <p>
 
 				<div class="grid-subcontent">
+					<!--FOR NOW THE JAVASCCRIPT WILLBE IN THE BODY BUT WILL BE MADE INTO AN EXTERNAL SCRIPT LATER-->
+					<!-- GALLERY CODE FROM W3SCHOOL.COM-->
+				
+						<div>
 
-					<figure>
-						<img src="img/placeholder.jpg" alt="News Link" height="200" width="550">
-						<figcaption>Placeholder Link</figcaption>
-					</figure>
+						<h3>FEATURED BENTOGO'S</h3>
+						<p>Japanese style lunchboxes made the way you want and delivered to you.<p>
+
+						<img class="homeGallery" src="img/home_gallery_1.jpg">
+
+
+						<img class="homeGallery" src="img/home_gallery_2.jpg">
+
+
+						<img class="homeGallery" src="img/home_gallery_3.jpg">
+
+						<a href="bentogo_newsfeed.html">
+						<img class="homeGallery" src="img/home_gallery_4.jpg">
+						</a>
+
+						<!--buttons-->
+						<!--style coding will be inserted ito css later-->
+						<a class="float-button" style="position:relative;top:50%;left:0%" onclick="plusDivs(-1)">&#10094;</a>
+						<a class="float-button" style="position:relative;top:35%;left:93%" onclick="plusDivs(1)">&#10095;</a>
+						<div>
+
+						<script>
+							var slideIndex = 1;
+							showDivs(slideIndex);
+
+							function plusDivs(n) {
+  								showDivs(slideIndex += n);
+							}
+
+							function showDivs(n) {
+  							var i;
+  							var x = document.getElementsByClassName("homeGallery");
+  							
+  							if (n > x.length) 
+  								{
+  									slideIndex = 1
+  								}
+  							
+  							if (n < 1) 
+  								{
+  									slideIndex = x.length
+  								}
+
+  							for (i = 0; i < x.length; i++) {
+     							x[i].style.display = "none";
+ 							}
+
+  							x[slideIndex-1].style.display = "block";
+							}
+						</script>
+				
+					<!--END OF GALLERY CODE-->
 
 					<div class="grid-subcontent">
+					<h3>BENTOGO NEWS</h3>
+					<p>Japanese style lunchboxes made the way you want and delivered to you.<p>
 
-					<figure>
-						<img src="img/placeholder.jpg" alt="News Link" height="150" width="250">
-						<figcaption>Placeholder Link</figcaption>
-					</figure>
 
-					<figure>
-						<img src="img/placeholder.jpg" alt="News Link" height="150" width="250">
+					<div class="grid-subcontent-2">
+					
+						<img src="img/home_link_1.jpg" alt="News Link 1">
 						<figcaption>Placeholder Link</figcaption>
-					</figure>
+					
+					</div>
+
+					<div class="grid-subcontent-2">
+						<img src="img/home_link_2.jpg" alt="News Link 2">
+						<figcaption>Placeholder Link</figcaption>
+					</div>
 
 					</div>
 				</div>

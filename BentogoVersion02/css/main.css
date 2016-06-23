@@ -1,3 +1,8 @@
+img{
+	width: 100%;
+	height:auto;
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
 	background-color: #cccccc;
@@ -34,6 +39,11 @@ h4 {
 strong {
 }
 
+li{
+	list-style: none;
+	padding:0;
+}
+
 p {
 	color: #000000;
 }
@@ -51,7 +61,7 @@ a:hover {
 }
 
 ul {
-	color: #000000;
+
 }
 
 form {
@@ -59,6 +69,7 @@ form {
 
 figure{
 	display: inline-block;
+	padding: 0em;
 }
 
 /*
@@ -93,6 +104,9 @@ section code {
 	transition: background-color 0.5s ease-out;
 }
 
+.button-nav:last-child{
+	display:none;
+}
 
 .button-nav:hover, .button-nav:focus {
 	color: #ffffff;
