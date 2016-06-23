@@ -9,7 +9,11 @@
 }
 
 .grid-main {
-	width: 20em;
+	width: 50%;
+	left: 20%;
+
+	position:relative;
+	background-color: white;
 }
 
 .grid-logo {
@@ -67,9 +71,10 @@
 
 @media (min-width: 40em) {
 	.grid-main {
-		width: 100%;
+		width: 60%;
 	}
 }
+
 
 /*
 .listing {
