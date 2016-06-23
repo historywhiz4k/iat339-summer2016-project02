@@ -7,6 +7,11 @@
 	/*border: 0.1em solid #000000;*/
 }
 
+[class*="bentobox-"] {
+	float: left;
+	border: 0.25em solid #000000;
+}
+
 .grid-main {
 	max-width: 60%;
 	position: relative;
@@ -24,6 +29,7 @@
 .grid-nav {
 	background-color: #990000;
 	min-width: 20em;
+	text-align: left;
 }
 
 .grid-content {
@@ -38,7 +44,7 @@
 
 .grid-item {
 	min-width: 10em;
-	margin: 2em;
+	margin: 1em;
 }
 
 .grid-icon {
@@ -47,6 +53,29 @@
 	border: 0.1em solid #000000;
 	text-align: center;
 	padding: 0em 0em;
+}
+
+.item-name {
+	padding: 1em 0em 0em 0em;
+}
+
+.grid-bentobox {
+	width: 100%;
+}
+
+.bentobox-main {
+	width: 30em;
+	height: 20em;
+}
+
+.bentobox-square {
+	width: 33.33%;
+	height: 50%;
+}
+
+.bentobox-rectangle {
+	width: 66.67%;
+	height: 50%;
 }
 
 .grid-icon-large {
@@ -85,12 +114,13 @@
 	.button-nav {
 		text-align: center;
 	}
-	.grid-item {
-		margin: 1em;
-	}
 	.progressbar {
 		width: 100%;
 		height: 100%;
+	}
+	.bentobox-main {
+		width: 24em;
+		height: 16em;
 	}
 }
 
