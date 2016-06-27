@@ -1,0 +1,196 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class*="grid-"] {
+	float: left;
+	/*border: 0.1em solid #000000;*/
+}
+
+[class*="bentobox-"] {
+	float: left;
+	border: 0.25em solid #000000;
+}
+
+.grid-main {
+	max-width: 60%;
+	position: relative;
+	left: 20%;
+	background-color: #ffffff;
+}
+
+.grid-logo {
+	background-color: #000000;
+	max-width: 30%;
+	min-width: 20em;
+	text-align: center;
+}
+
+.grid-nav {
+	background-color: #990000;
+	min-width: 20em;
+	text-align: left;
+}
+
+.grid-content {
+	width: 70%;
+	max-width: 100%;
+	padding: 1em 2em;
+}
+
+.grid-subcontent {
+	min-width: 40%;
+}
+
+.grid-subcontent-2{
+	min-width: 10%;
+	padding: 0em 3em 0em 0em;
+}
+
+.grid-listing {
+	width: 100%;
+	padding: 1em 1em;
+	background-color: #f2f2f2;
+	margin: 0em 0em 1em 0em;
+}
+
+.grid-listing-name {
+	padding: 0em 1em;
+	height: 10em;
+}
+
+.grid-listing-description {
+	padding: 0em 1em;
+}
+
+.grid-orderdetails {
+	width: 8em;
+	height: 5em;
+	padding: 0em 2em;
+}
+
+.grid-item {
+	min-width: 10em;
+	margin: 1em;
+}
+
+.grid-icon {
+	height: 10em;
+	width: 10em;
+	border: 0.1em solid #000000;
+}
+
+.grid-icon-small {
+	height: 5em;
+	width: 5em;
+	border: 0.1em solid #000000;
+}
+
+.grid-productpage-img {
+	height: 20em
+	border: 0.1em solid #000000;
+	text-align: center;
+	padding: 0em 0em;
+}
+
+.item-name {
+	padding: 1em 0em 0em 0em;
+}
+
+.grid-bentobox {
+	width: 100%;
+}
+
+.bentobox-main {
+	width: 30em;
+	height: 20em;
+}
+
+.bentobox-square {
+	width: 33.33%;
+	height: 50%;
+}
+
+.bentobox-rectangle {
+	width: 66.67%;
+	height: 50%;
+}
+
+.grid-options {
+	width: 100%;
+	margin: 2em;
+	padding: 0em 1em;
+}
+
+.grid-description {
+	width: 15em;
+	height: 10em;
+	padding: 1em 1em;
+}
+
+
+@media (max-width: 1000px) {
+	body {
+		font-size: 2em;
+	}
+	.grid-main {
+		left: 0%;
+		max-width: 100%;
+	}
+	.grid-logo {
+		max-width: 100%;
+	}
+	.grid-content {
+		width: 100%;
+	}
+	.button-nav {
+		text-align: center;
+	}
+	.progressbar {
+		width: 100%;
+		height: 100%;
+	}
+	.productpage-img {
+		width: 100%;
+	}
+	.bentobox-main {
+		width: 24em;
+		height: 16em;
+	}
+
+	.grid-subcontent {
+		width: 100%;
+	}
+
+	.grid-subcontent-2 {
+		width: 100%;
+	}
+}
+
+/*If screen is less than 1000px wide, only show the first item in the nav and show hamburger button*/
+@media (max-width:1000px){
+	/*
+	.button-nav:first-child{
+		display:inline-block;
+	}
+	*/
+	.button-nav:last-child{
+		display: inline-block;
+	}
+	.button-nav{
+		display:none;
+	}
+}
+
+@media (max-width:1000px){
+	.button-nav.responsive{
+		position:relative;
+		display:inline-block;
+	}
+	.button-nav:last-child.responsive{
+		position:relative;
+		right:0;
+		top:0;
+	}
+}
+

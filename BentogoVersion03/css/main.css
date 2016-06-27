@@ -1,0 +1,176 @@
+img{
+	width: 100%;
+	height:auto;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #cccccc;
+}
+
+
+h1 {
+	font-family: "Orbitron", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	color: #ff0000;
+}
+
+h2 {
+	font-family: "Orbitron", sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #ff0000;
+}
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	color: #000000;
+}
+
+h4 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #000000;
+}
+
+strong {
+}
+
+li{
+	list-style: none;
+	padding:0;
+}
+
+p {
+	color: #000000;
+}
+
+a {
+	color: #990000;
+}
+
+a:visited {
+	color: #ff8000;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+ul {
+
+}
+
+form {
+}
+
+figure{
+	display: inline-block;
+	padding: 0em;
+}
+
+/*
+
+section {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+section:not([id]) {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 0.1em solid #333333;
+}
+
+section code {
+  background-color: #eeeeee;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+*/
+
+.button-nav {
+	display: inline-block;
+	padding: 0.5em 4em;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-nav:last-child{
+	display:none;
+}
+
+.button-nav:hover, .button-nav:focus {
+	color: #ffffff;
+	background-color: #ff0000;
+}
+
+.button-nav:visited {
+	color: #ffffff;
+}
+
+.button-order {
+	display: inline-block;
+	padding: 0.5em 2em;
+	margin: 0.5em 0em;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+
+.button-order:hover, .button-order:focus {
+	color: #ffffff;
+	background-color: #ff0000;
+}
+
+.button-order:visited {
+	color: #ffffff;
+}
+
+.icon-size {
+	width: 100%;
+	height: 100%;
+}
+
+.productpage-img {
+	width: 50%;
+}
+
+.progressbar {
+	width: 288px;
+	height: 72px;
+}
+
+input[type=submit] {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	background-color: #990000;
+	padding: 0.1em 2em;
+	border: 0;
+}
+
+input[type=reset] {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	background-color: #990000;
+	padding: 0.1em 2em;
+	border: 0;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+}
