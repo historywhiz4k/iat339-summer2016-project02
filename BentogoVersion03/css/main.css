@@ -1,8 +1,3 @@
-img{
-	width: 100%;
-	height:auto;
-}
-
 body {
 	font-family: "Open Sans", sans-serif;
 	background-color: #cccccc;
@@ -110,7 +105,7 @@ section code {
 
 .button-nav:hover, .button-nav:focus {
 	color: #ffffff;
-	background-color: #ff0000;
+	background-color: #000000;
 }
 
 .button-nav:visited {
