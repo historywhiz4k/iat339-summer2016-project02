@@ -87,7 +87,7 @@
 }
 
 .grid-productpage-img {
-	height: 20em
+	height: 20em;
 	border: 0.1em solid #000000;
 	text-align: center;
 	padding: 0em 0em;
@@ -123,9 +123,9 @@
 }
 
 .grid-description {
-	width: 15em;
+	width: 20em;
 	height: 10em;
-	padding: 1em 1em;
+	padding: 0em 0em 0em 2em;
 }
 
 
@@ -174,12 +174,14 @@
 		display:inline-block;
 	}
 	*/
-	.button-nav:last-child{
-		display: inline-block;
-	}
 	.button-nav{
 		display:none;
 	}
+
+	.button-nav:last-child{
+		display: inline-block;
+	}
+	
 }
 
 @media (max-width:1000px){
