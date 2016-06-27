@@ -12,14 +12,7 @@
 	border: 0.25em solid #000000;
 }
 
-.grid-main {
-	max-width: 60%;
-	position: relative;
-	left: 20%;
-	background-color: #ffffff;
-}
-
-.grid-logo {
+.grid-navbar {
 	background-color: #990000;
 	width: 20em;
 	min-width: 20em;
@@ -29,7 +22,7 @@
 	margin: -1em 0em 20em -1em;
 }
 
-.grid-nav {
+.grid-navbuttons {
 	background-color: #990000;
 	min-width: 20em;
 	text-align: left;
