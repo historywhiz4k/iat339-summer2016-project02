@@ -4,12 +4,13 @@
 	<head>
 
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<title>Bentogo: Boxed lunches to go!</title>
 		
 		<link href="css/main.css" rel="stylesheet">
-
 		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/hamburger.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css">
 
@@ -37,8 +38,10 @@
 
 			</div>
 
-			<div class="navbuttons">
+			<div class="grid-navbuttons">
 
+				
+				<a href="#top" class="nav-toggle hidden">MENU</a>
 				<a href="login.html" class="button-nav">Log In</a>
 				<a href="myorder.html" class="button-nav" >My Order (0 Items)</a>
 				<a href="catalogue.html" class="button-nav">Bento Catalogue</a>
@@ -59,8 +62,8 @@
 					<label for="searchkeyword">Search keyword:</label>
 					<input type="text" id="searchkeyword" name="firstname">
 					<input type="submit" value="Search"> 
-				<form>
-			<div>
+				</form>
+			</div>
 
 			<p>Filters: none (<a href="#">Select filters</a>)</p>
 
@@ -227,9 +230,11 @@
 				</div>
 				-->
 			</div>
-
-		<div>
+			
+			<div class="footer">
+			<p>Resize the browser window to see how the content respond to the resizing.</p>
+			</div>
+			<script src="js/hamburger.js"></script>
 
 	</body>
-
 </html>
