@@ -99,9 +99,6 @@ section code {
 	transition: background-color 0.5s ease-out;
 }
 
-.button-nav:last-child{
-	display:none;
-}
 
 .button-nav:hover, .button-nav:focus {
 	color: #ffffff;
