@@ -5,9 +5,10 @@ nav a{
 
 nav a, nav a:visited, .nav-toggle {
 	display: inline-block;
-	background-color: blue;
+	background-color: #990000;
 	color: #FFFFFF;
 	padding: 1em 1.25em;
+	float: right;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
