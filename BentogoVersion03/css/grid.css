@@ -141,6 +141,8 @@
 	}
 	.grid-logo {
 		max-width: 100%;
+		text-align: left;
+		padding: 0em 0em 0em 1em;
 	}
 	.grid-navbar {
 		width: 100%;
