@@ -1,6 +1,12 @@
 body{
+	font-family: "Open Sans", sans-serif;
 	background-color:green;
 }
+
+p {
+	color: #000000;
+}
+
 
 .footer{
 	background-color: #0099cc;
@@ -9,4 +15,36 @@ body{
     font-size: 12px;
     padding: 15px;
     clear:both;
+}
+
+
+/*CSS for the button in the navigation menu*/
+.button-nav{
+	display: inline-block;
+	padding: 0.5em 4em;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+/*CSS for the button when a mouse is hovering*/
+.button-nav:hover, .button-nav:focus {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+/*CSS for the button after it's been visited*/
+.button-nav:visited, {
+	color: #ffffff;
+}
+
+/*CSS for the white dividers in the menu so we can get rid of them in @media*/
+.divider{
+	width: 100%; 
+	height: 1px; 
+	background: #ffffff; 
+	overflow: hidden;
 }

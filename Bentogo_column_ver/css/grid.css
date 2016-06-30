@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+/*CSS for the logo so we can get add/remove padding */
+.logo{
+    padding: 0em 0em 5em 0em;
+}
+
+
 /*CSS for the navigation*/
 .nav{
     background-color: #990000;
@@ -31,6 +37,16 @@
     padding: 0em;
 }
 
+/*CSS for the navigation button area*/
+.navbuttons {
+    background-color: #990000;
+    width: 100%;
+    min-width: 16em;
+    text-align: center;
+    position: static;
+}
+
+/*LIST of differnet column sizes to use for DIVS*/
 @media only screen and (min-width: 800px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -47,9 +63,14 @@
     .col-12 {width: 100%;}
 }
 
+/*Media query for when the screen is smaller than 800 px*/
 @media only screen and (max-width: 800px){
     body{
         background-color: yellow;
+    }
+
+    img{
+        float:left;
     }
 
     .nav{
@@ -58,5 +79,20 @@
 
     .content{
         height:auto;
+    }
+
+    .divider{
+        display:none;
+    }
+
+    .logo{
+        padding: 0em;
+        width: 50%;
+        float:left;
+    }
+
+    .nav-toggle{
+        width:100%;
+        float:right;
     }
 }
