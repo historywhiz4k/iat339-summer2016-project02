@@ -81,13 +81,30 @@ figure{
 	width: 50%;
 }
 
-/*HOME PAGE SUB IMAGE*/
-.news-image{
+/*NEWSFEED HUB PAGE IMAGE*/
+.newsfeed-image{
 	float:left;
 	position: relative;
 	display:inline-block;
 	padding: 1em;
 	width: 50%;
+}
+
+/*NEWSFEED ARTICLE PAGE IMAGE*/
+.news-articleimage{
+	float:left;
+	position: relative;
+	display:inline-block;
+	padding: 1em;
+	width: 50%;
+}
+
+/*HOME PAGE SUB IMAGE*/
+.news-text{
+	float:left;
+	position: relative;
+	padding: 1em;
+	width: 100%;
 }
 
 /*EMBEDDED TEXT ON HOME PAGE MAIN IMAGES*/
@@ -103,7 +120,7 @@ figure{
     margin: 5px;
 }
 
-/*EMBEDDED TEXT ON HOME PAGE SUB IMAGES*/
+/*EMBEDDED TEXT ON HOME PAGE SMALL IMAGES*/
 .home-subimage p{
  	position: absolute;
  	background-color: black;
@@ -116,18 +133,19 @@ figure{
     margin: 0px;
 }
 
-/*EMBEDDED TEXT ON NEWS PAGE SUB IMAGES*/
-.news-image p{
- 	position: absolute;
- 	background-color: black;
- 	font-size: 20px;
-    left: 5.5%;
-    top: 80%;
-    padding: 10px;
-    width: 75%;
-    color: #FFF;
-    margin: 0px;
+/*EMBEDDED TEXT ON HOME PAGE SMALL IMAGES*/
+.page-nav{
+	display: inline;
+	padding: 1em;
+	margin-bottom: 1px;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
 }
+
 
 .button-nav, .nav-toggle {
 	display: inline-block;
