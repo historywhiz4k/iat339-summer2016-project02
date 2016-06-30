@@ -57,6 +57,23 @@ figure{
 	padding: 0em;
 }
 
+/*HOME PAGE CUSTOM HEADING*/
+.image-text{
+	position:absolute;
+	top: 200px;
+	padding: 0em 0em 0em 3em;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+}
+
+/*HOME PAGE IMAGE*/
+.home-image{
+	position: relative;
+	width: 100%;
+
+}
+
 .button-nav, .nav-toggle {
 	display: inline-block;
 	padding: 0.5em 4em;
