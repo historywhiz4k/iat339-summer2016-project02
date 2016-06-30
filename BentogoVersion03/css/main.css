@@ -73,7 +73,7 @@ figure{
 	width: 100%;
 }
 
-/*HOME PAGE MAIN IMAGE*/
+/*HOME PAGE SUB IMAGE*/
 .home-subimage{
 	float:left;
 	position: relative;
@@ -81,7 +81,7 @@ figure{
 	width: 50%;
 }
 
-/*EMBEDDED TEXT ON HOME PAGE IMAGES*/
+/*EMBEDDED TEXT ON HOME PAGE MAIN IMAGES*/
 .home-mainimage p{
  	position: absolute;
  	background-color: black;
@@ -94,7 +94,7 @@ figure{
     margin: 5px;
 }
 
-/*EMBEDDED TEXT ON HOME PAGE IMAGES*/
+/*EMBEDDED TEXT ON HOME PAGE SUB IMAGES*/
 .home-subimage p{
  	position: absolute;
  	background-color: black;

@@ -136,11 +136,38 @@
 		float:left;
 	}
 
+	/*MAIN PAGE RELATED @MEDIA QUERY*/
+	.home-mainimage p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 15px;
+    	left: 0%;
+    	top: 70%;
+    	padding: 10px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+
+	}
+
+	.home-subimage p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 15px;
+    	left: 0%;
+    	top: 70%;
+    	padding: 10px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+	}
+
 	.nav-toggle{
 		width:70%;
 		float:right;
 		padding: 1.55em;
 	}
+
 	.grid-logo {
 		text-align: left;
 		padding: 0.5em 0em 0em 0em;
@@ -192,5 +219,31 @@
 		width:100%;
 		float:right;
 		padding: 1.5em 0em 1.6em 4em;
+	}
+
+	/*MAIN PAGE RELATED @MEDIA QUERY*/
+	.home-mainimage p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 10px;
+    	left: -0.5%;
+    	top: 85%;
+    	padding: 15px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+	}
+
+	.home-subimage p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 10px;
+    	left: 0%;
+    	top: 75%;
+    	padding: 5px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+
 	}
 }
