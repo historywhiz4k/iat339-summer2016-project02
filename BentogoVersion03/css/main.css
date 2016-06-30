@@ -31,9 +31,6 @@ h4 {
 	color: #000000;
 }
 
-strong {
-}
-
 li{
 	list-style: none;
 	padding:0;
@@ -55,40 +52,12 @@ a:hover {
 	color: #ff0000;
 }
 
-ul {
-
-}
-
-form {
-}
-
 figure{
 	display: inline-block;
 	padding: 0em;
 }
 
-/*
-
-section {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-section:not([id]) {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	border-bottom: 0.1em solid #333333;
-}
-
-section code {
-  background-color: #eeeeee;
-  padding: 0.5em 0.75em;
-  display: block;
-}
-
-*/
-
-.button-nav {
+.button-nav, .nav-toggle {
 	display: inline-block;
 	padding: 0.5em 4em;
 	color: #ffffff;
@@ -100,12 +69,12 @@ section code {
 }
 
 
-.button-nav:hover, .button-nav:focus {
+.button-nav:hover, .button-nav:focus, .nav-toggle:hover, .nav-toggle:focus {
 	color: #ffffff;
 	background-color: #000000;
 }
 
-.button-nav:visited {
+.button-nav:visited, .nav-toggle:focus {
 	color: #ffffff;
 }
 
