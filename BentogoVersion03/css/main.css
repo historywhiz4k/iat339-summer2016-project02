@@ -119,12 +119,12 @@ figure{
 }
 
 
-.button-nav:hover, .button-nav:focus {
+.button-nav:hover {
 	color: #ffffff;
 	background-color: #000000;
 }
 
-.button-nav:visited, .nav-toggle:focus {
+.button-nav:visited {
 	color: #ffffff;
 }
 

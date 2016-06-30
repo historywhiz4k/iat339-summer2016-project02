@@ -1,6 +1,5 @@
-.nav-toggle {
+.nav-toggle:hover {
 	background-color: #990000;
-	color: #ffffff;
 }
 
 .nav-toggle.hidden {
