@@ -131,6 +131,9 @@
 
 
 @media (max-width: 768px) {
+	h3 {
+		font-size: 1em;
+	}
 	.grid-logo {
 		text-align: left;
 		padding: 0.5em 0em 0em 0em;
@@ -146,6 +149,12 @@
 	.button-navbuttons {
 		text-align: center;
 		max-width: 20%;
+	}
+	.grid-listing {
+		width: 100%;
+	}
+	.grid-listing-name {
+		width: 5em;
 	}
 	.grid-icon {
 		width: 5em;
