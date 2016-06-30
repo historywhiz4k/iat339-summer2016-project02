@@ -67,11 +67,44 @@ figure{
 	color: #ffffff;
 }
 
-/*HOME PAGE IMAGE*/
-.home-image{
+/*HOME PAGE MAIN IMAGE*/
+.home-mainimage{
 	position: relative;
 	width: 100%;
+}
 
+/*HOME PAGE MAIN IMAGE*/
+.home-subimage{
+	float:left;
+	position: relative;
+	display:inline-block;
+	width: 50%;
+}
+
+/*EMBEDDED TEXT ON HOME PAGE IMAGES*/
+.home-mainimage p{
+ 	position: absolute;
+ 	background-color: black;
+ 	font-size: 20px;
+    left: -0.5%;
+    top: 85%;
+    padding: 20px;
+    width: 50%;
+    color: #FFF;
+    margin: 5px;
+}
+
+/*EMBEDDED TEXT ON HOME PAGE IMAGES*/
+.home-subimage p{
+ 	position: absolute;
+ 	background-color: black;
+ 	font-size: 20px;
+    left: 0%;
+    top: 80%;
+    padding: 10px;
+    width: 75%;
+    color: #FFF;
+    margin: 0px;
 }
 
 .button-nav, .nav-toggle {
@@ -150,11 +183,13 @@ figure{
 
 /*new content*/
 .footer{
-	background-color: #0099cc;
-    color: #ffffff;
+	background-color: #990000;
+    color: #000000;
     text-align: center;
     font-size: 12px;
-    padding: 15px;
+    width: 100%;
+    padding: 1em;
+    clear:both;
 }
 
 input[type=submit] {
