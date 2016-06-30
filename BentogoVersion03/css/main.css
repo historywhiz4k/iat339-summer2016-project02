@@ -142,10 +142,10 @@ input[type=reset] {
 
 input[type=text] {
 	height: 2em;
+	vertical-align: middle;
 }
 
 textarea {
 	width: 500px;
 	height: 200px;
 }
-
