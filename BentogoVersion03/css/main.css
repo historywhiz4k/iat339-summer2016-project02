@@ -69,7 +69,7 @@ figure{
 }
 
 
-.button-nav:hover, .button-nav:focus, .nav-toggle:hover, .nav-toggle:focus {
+.button-nav:hover, .button-nav:focus, {
 	color: #ffffff;
 	background-color: #000000;
 }

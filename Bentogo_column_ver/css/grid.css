@@ -22,7 +22,7 @@
     padding: 0em;
     height: 50em;
     text-align: center;
-    position: static;
+    position: relative;
     float: left;
 }
 

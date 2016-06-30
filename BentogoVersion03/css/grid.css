@@ -130,9 +130,21 @@
 
 
 @media (max-width: 768px) {
+
+	img{
+		float:left;
+	}
+
+	.nav-toggle{
+		width:70%;
+		float:right;
+		padding: 1.55em;
+	}
 	.grid-logo {
 		text-align: left;
 		padding: 0.5em 0em 0em 0em;
+		width: 50%;
+		float:left;
 	}
 	.grid-navbar {
 		width: 100%;
