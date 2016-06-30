@@ -74,7 +74,7 @@
 	margin: 1em;
 }
 
-.grid-icon {
+.grid-icon, .grid-listing-img {
 	height: 10em;
 	width: 10em;
 	border: 0.1em solid #000000;
@@ -149,13 +149,17 @@
 	.grid-listing {
 		width: 100%;
 	}
+	.grid-listing-img {
+		width: 5em;
+		height: 5em;
+	}
 	.grid-listing-name {
 		width: 12em;
 		height: 5em;
 	}
 	.grid-icon {
-		width: 5em;
-		height: 5em;
+		width: 10em;
+		height: 10em;
 	}
 	.progressbar {
 		width: 100%;
