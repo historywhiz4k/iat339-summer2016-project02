@@ -99,6 +99,24 @@ figure{
 	color: #ffffff;
 }
 
+/*this is for buttons that are inactive until certain actions are done.*/
+
+.unavailable, .unavailable:hover, .unavailable:focus, .unavailable:visited {
+	background-color: #cccccc;
+}
+
+.button-bentobox:hover, .button-bentobox:focus {
+	background-color: #990000;
+}
+
+.button-bentobox:visited {
+	background-color: #000000;
+}
+
+.selected-bentobox {
+	background-color: #990000;
+}
+
 .icon-size {
 	width: 100%;
 	height: 100%;
