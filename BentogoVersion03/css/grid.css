@@ -130,7 +130,7 @@
 }
 
 
-@media (max-width: 773px) {
+@media (max-width: 768px) {
 
 	img{
 		float:left;
@@ -155,6 +155,18 @@
  		background-color: black;
  		font-size: 15px;
     	left: 0%;
+    	top: 70%;
+    	padding: 10px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+	}
+
+	.news-image p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 15px;
+    	left: 8%;
     	top: 70%;
     	padding: 10px;
     	width: 90%;
@@ -244,6 +256,26 @@
     	width: 90%;
     	color: #FFF;
     	margin: 0px;
+	}
 
+	.news-image p{
+		position: absolute;
+ 		background-color: black;
+ 		font-size: 10px;
+    	left: 0%;
+    	top: 75%;
+    	padding: 5px;
+    	width: 90%;
+    	color: #FFF;
+    	margin: 0px;
+	}
+
+	/*HOME PAGE SUB IMAGE*/
+	.news-image{
+		float:left;
+		position: relative;
+		display:inline-block;
+		padding: 0em;
+		width: 100%;
 	}
 }

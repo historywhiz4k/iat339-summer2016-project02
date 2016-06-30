@@ -81,6 +81,15 @@ figure{
 	width: 50%;
 }
 
+/*HOME PAGE SUB IMAGE*/
+.news-image{
+	float:left;
+	position: relative;
+	display:inline-block;
+	padding: 1em;
+	width: 50%;
+}
+
 /*EMBEDDED TEXT ON HOME PAGE MAIN IMAGES*/
 .home-mainimage p{
  	position: absolute;
@@ -100,6 +109,19 @@ figure{
  	background-color: black;
  	font-size: 20px;
     left: 0%;
+    top: 80%;
+    padding: 10px;
+    width: 75%;
+    color: #FFF;
+    margin: 0px;
+}
+
+/*EMBEDDED TEXT ON NEWS PAGE SUB IMAGES*/
+.news-image p{
+ 	position: absolute;
+ 	background-color: black;
+ 	font-size: 20px;
+    left: 5.5%;
     top: 80%;
     padding: 10px;
     width: 75%;
