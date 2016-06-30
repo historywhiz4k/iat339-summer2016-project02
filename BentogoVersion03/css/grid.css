@@ -47,7 +47,7 @@
 }
 
 .grid-listing {
-	max-width: 60em;
+	width: 30em;
 	padding: 1em 1em;
 	background-color: #f2f2f2;
 	margin: 0em 1em 1em 0em;
@@ -56,12 +56,11 @@
 .grid-listing-name {
 	padding: 0em 1em;
 	height: 10em;
-	width: 15em;
+	width: 18em;
 }
 
 .grid-listing-description {
-	padding: 0em 1em;
-	width: 50%;
+	width: 100%;
 }
 
 .grid-orderdetails {
@@ -131,9 +130,6 @@
 
 
 @media (max-width: 768px) {
-	h3 {
-		font-size: 1em;
-	}
 	.grid-logo {
 		text-align: left;
 		padding: 0.5em 0em 0em 0em;
@@ -154,7 +150,8 @@
 		width: 100%;
 	}
 	.grid-listing-name {
-		width: 5em;
+		width: 12em;
+		height: 5em;
 	}
 	.grid-icon {
 		width: 5em;
