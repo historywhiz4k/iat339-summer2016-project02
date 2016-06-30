@@ -30,7 +30,7 @@
 
 .grid-navbuttons {
 	background-color: #990000;
-	min-width: 20;
+	min-width: 20%;
 }
 
 .grid-content {
@@ -187,3 +187,10 @@
 	}
 }
 
+@media (max-width: 330px){
+	.nav-toggle{
+		width:100%;
+		float:right;
+		padding: 1.5em 0em 1.6em 4em;
+	}
+}
