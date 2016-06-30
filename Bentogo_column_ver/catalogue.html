@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+
+
+<!--header-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bentogo: Boxed lunches to go!</title>
+
+	<!--loading CSS and fonts here-->
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/hamburger.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<!--end of external source loading-->
+</head>
+
+	<!--body of the site goes here-->
+	<body>
+		<div class = "col-2 nav">
+
+			<!--adding company logo-->
+			<div class ="logo">
+				<picture>
+					<source media="(max-width: 800px)" srcset="img/bentogo_logo_small_v2.gif 1x">
+					<source srcset="img/bentogo_logo.g if 1x">
+					<img src="img/logo_bentogo.gif" srcset="img/bentogo_logo.gif 1x" alt="Bentogo Logo">
+				</picture>
+			</div>
+
+			<div class="logo">
+				<a href="#top" class="nav-toggle hidden">&#9776;MENU</a>
+			</div>
+			<!--end of company logo-->
+
+			<!--navigation button code goes here -->
+			<div>
+				<nav class="navbuttons">
+					<div class="divider"></div>
+					<a href="login.html" class="button-nav">Log In</a>
+					<div class="divider"></div>
+					<a href="myorder.html" class="button-nav" >My Order (0 Items)</a>
+					<div class="divider"></div>
+					<a href="catalogue.html" class="button-nav">Bento Catalogue</a>
+					<div class="divider"></div>
+					<a href="custombento.html" class="button-nav">Custom Bento</a>
+					<div class="divider"></div>
+					<a href="newsfeed.html" class="button-nav">Newsfeed</a>
+					<div class="divider"></div>
+					<a href="contact.html" class="button-nav">Contact Us</a>
+					<div class="divider"></div>
+				</nav>
+			</div>
+			<!--navigation button code ends here -->
+		</div>
+
+		<!--content code goes here -->
+		<div class = "col-8 content">
+		
+			<h1>BENTO CATALOGUE</h1>
+
+			<div>
+				<form>
+					<input type="text" id="searchkeyword" name="search" placeholder="Search keyword...">
+					<input type="submit" value="Search"> 
+				</form>
+			</div>
+
+			<p>Filters: none (<a href="#">Select filters</a>)</p>
+
+			<p>Showing 8 of 30 results.</p>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="catalogue-item01.html">
+						<img src="img/img_product-listing001.jpg" class="icon-size" alt="Classic Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Classic Bento</strong>
+					<p><strong>$ 7.99</strong></p>
+					<!--
+					<p>Consists of white steamed rice with pickled plum, chicken, broccoli, rolled omlette...</p>
+					-->
+				</div>
+				<div>
+					<a href="myorder.html" class="button-order">Order</a>
+					<a href="catalogue-item01.html" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="catalogue-item02.html">
+						<img src="img/img_product-listing002.jpg" class="icon-size" alt="Garden Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Garden Bento</strong>
+					<p><strong>$ 8.99</strong></p>
+				</div>
+				<div>
+					<a href="myorder.html" class="button-order">Order</a>
+					<a href="catalogue-item02.html" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="#">
+						<img src="img/img_product-listing003.jpg" class="icon-size" alt="Chicken Wing Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Chicken Wing Bento</strong>
+					<p><strong>$ 8.49</strong></p>
+				</div>
+				<div>
+					<a href="#" class="button-order">Order</a>
+					<a href="#" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="#">
+						<img src="img/img_product-listing004.jpg" class="icon-size" alt="Potato Salad Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Potato Salad Bento</strong>
+					<p><strong>$ 8.99</strong></p>
+				</div>
+				<div>
+					<a href="#" class="button-order">Order</a>
+					<a href="#" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<!--Duplicate Listing -->
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="catalogue-item01.html">
+						<img src="img/img_product-listing001.jpg" class="icon-size" alt="Classic Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Classic Bento</strong>
+					<p><strong>$ 7.99</strong></p>
+				</div>
+				<div>
+					<a href="myorder.html" class="button-order">Order</a>
+					<a href="catalogue-item01.html" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="catalogue-item02.html">
+						<img src="img/img_product-listing002.jpg" class="icon-size" alt="Garden Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Garden Bento</strong>
+					<p><strong>$ 8.99</strong></p>
+				</div>
+				<div>
+					<a href="myorder.html" class="button-order">Order</a>
+					<a href="catalogue-item02.html" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="#">
+						<img src="img/img_product-listing003.jpg" class="icon-size" alt="Chicken Wing Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Chicken Wing Bento</strong>
+					<p><strong>$ 8.49</strong></p>
+				</div>
+				<div>
+					<a href="#" class="button-order">Order</a>
+					<a href="#" class="button-order">Info</a>
+				</div>
+			</div>
+
+			<div class="grid-listing">
+				<div class="grid-icon">
+					<a href="#">
+						<img src="img/img_product-listing004.jpg" class="icon-size" alt="Potato Salad Bento">
+					</a>
+				</div>
+				<div class="grid-listing-name">
+					<strong>Potato Salad Bento</strong>
+					<p><strong>$ 8.99</strong></p>
+				</div>
+				<div>
+					<a href="#" class="button-order">Order</a>
+					<a href="#" class="button-order">Info</a>
+				</div>
+			</div>
+		</div>
+		<!--content code goes here -->
+
+		<!--Footer stuff goes here-->
+		<div class = "col-12 footer">
+		<p>Resize the browser window to see how the content respond to the resizing.</p>
+		</div>
+
+		<!--loading javascript here to inject the code last-->
+		<script src="js/jquery.js"></script>
+    	<script src="js/hamburger.js"></script>
+    	<!--end of javascript injection-->
+
+	</body>
+</html>
