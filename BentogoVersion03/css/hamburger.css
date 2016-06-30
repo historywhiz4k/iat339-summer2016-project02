@@ -1,6 +1,5 @@
 .nav-toggle {
-	background-color: black;
-	display: block;
+	background-color: #000000;
 }
 
 .nav-toggle.hidden {
