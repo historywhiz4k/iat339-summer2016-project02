@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Bentogo: Boxed lunches to go!</title>
+		
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/hamburger.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body>
+
+		<!--NAVIGATION BAR CODE-->
+		<div class="grid-navbar">
+
+			<div class="grid-logo">
+				<a href="index.html">
+					<picture>
+						<source media="(max-width: 768px)" srcset="img/logo_bentogo-small.gif 1x">
+						<source srcset="img/logo_bentogo.gif 1x">
+						<img src="img/logo_bentogo.gif" srcset="img/logo_bentogo-small.gif 1x" alt="Bentogo Logo">
+					</picture>
+				</a>
+			</div>
+			
+			<div class ="grid-logo">
+				<a class="button-nav nav-toggle hidden" href="#">&#9776; MENU</a>
+			</div>
+
+				<nav class="grid-navbuttons">
+
+					<a href="login.html" class="button-nav">Log In</a>
+					<a href="myorder.html" class="button-nav" >My Order (0 Items)</a>
+					<a href="catalogue.html" class="button-nav">Bento Catalogue</a>
+					<a href="custombento-step01.html" class="button-nav">Custom Bento</a>
+					<a href="newsfeed.html" class="button-nav">Newsfeed</a>
+					<a href="contact.html" class="button-nav">Contact Us</a>
+
+				</nav>
+
+		</div>
+		<!--END OF NAVIGATION BAR CODE-->
+
+		<!-- START OF CONTENT CODE-->
+		<div class="grid-content">
+
+			<div class ="news-text">
+			<h2>Contact Us</h2>
+			<p>Got a question for us? Get in touch with us through the various methods below!</p>
+			</div>
+
+			<div class="news-articleimage">
+			<img src="img/storefront.gif" alt "Storefront" style="width:45%">
+			<img src="img/googlemaps.gif" alt "Storefront" style="width:45%">
+			<div class="news-articleimage">
+				<p>ASDFJASDLKFKADSFJ</p>
+			</div>
+			<div class="news-articleimage">
+				<p>ASDFJASDLKFKADSFJ</p>
+			</div>
+			</div>
+
+			<div class="news-articleimage">
+			<h2>Message Form</h2>
+			<form>
+  				<input type="text" id="name" name="name" value="Your name (e.g. John Doe)">
+  				<input type="text" id="email" name="email" value="Your e-mail address">
+  				<input type="text" id="url" name="url" value="Website URL (optional)">
+  				<input type="text" id="phone" name="phone" value="Phone Number (optional)">
+  				<select id="reason" name ="reason">
+  					<option value ="item">Select a topic</option>
+  					<option value ="item">Product Inquiry</option>
+  					<option value ="item">Catering</option>
+  					<option value ="item">News/Event Tip</option>
+  					<option value ="item">Other</option>
+  				</select>
+  				<textarea>Write your message here</textarea>
+			</form>
+			<input type="submit" value="Submit"> 
+				<input type="reset" value="Reset"> 
+			</div>
+	
+		</div>
+		<!--END OF CONTENT CODE-->
+		
+		<!--FOOTER GOES HERE-->
+		<div class = "footer">
+		<p>FOOTER INFORMATON WILL GO IN HERE</p>
+		</div>
+		<!--END OF FOOTER-->
+
+		<script src ="js/jquery.js"></script>
+		<script src ="js/hamburger.js"></script>
+
+	</body>
+
+</html>
