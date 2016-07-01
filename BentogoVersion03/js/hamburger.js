@@ -6,7 +6,7 @@ $(document).ready(
 	var width = $(window).width();
 	console.log("Window width = "+width);
 
-	if (width < 1000){
+	if (width < 774){
 
 		$(".nav-toggle").removeClass("hidden");//hide menu elements if screen size is less than 352 pix
 		$(".nav-toggle").addClass("shown");

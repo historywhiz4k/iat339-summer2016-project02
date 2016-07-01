@@ -81,6 +81,32 @@ figure{
 	width: 50%;
 }
 
+/*NEWSFEED HUB PAGE IMAGE*/
+.newsfeed-image{
+	float:left;
+	position: relative;
+	display:inline-block;
+	padding: 1em;
+	width: 50%;
+}
+
+/*NEWSFEED ARTICLE PAGE IMAGE*/
+.news-articleimage{
+	float:left;
+	position: relative;
+	display:inline-block;
+	padding: 1em;
+	width: 50%;
+}
+
+/*HOME PAGE SUB IMAGE*/
+.news-text{
+	float:left;
+	position: relative;
+	padding: 1em;
+	width: 100%;
+}
+
 /*EMBEDDED TEXT ON HOME PAGE MAIN IMAGES*/
 .home-mainimage p{
  	position: absolute;
@@ -94,7 +120,7 @@ figure{
     margin: 5px;
 }
 
-/*EMBEDDED TEXT ON HOME PAGE SUB IMAGES*/
+/*EMBEDDED TEXT ON HOME PAGE SMALL IMAGES*/
 .home-subimage p{
  	position: absolute;
  	background-color: black;
@@ -106,6 +132,33 @@ figure{
     color: #FFF;
     margin: 0px;
 }
+
+/*EMBEDDED TEXT ON HOME PAGE SMALL IMAGES*/
+.newsfeed-image p{
+ 	position: absolute;
+ 	background-color: black;
+ 	font-size: 20px;
+    left: 0%;
+    top: 80%;
+    padding: 10px;
+    width: 75%;
+    color: #FFF;
+    margin: 0px;
+}
+
+/*EMBEDDED TEXT ON HOME PAGE SMALL IMAGES*/
+.page-nav{
+	display: inline;
+	padding: 1em;
+	margin-bottom: 1px;
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
 
 .button-nav, .nav-toggle {
 	display: inline-block;
@@ -197,7 +250,7 @@ input[type=submit] {
 	font-size: 1em;
 	color: #ffffff;
 	background-color: #990000;
-	padding: 0.25em 2em;
+	padding: 0.5em 2em;
 	border: 0;
 }
 
@@ -210,12 +263,25 @@ input[type=reset] {
 	border: 0;
 }
 
-input[type=text] {
+input[type=text],select {
 	height: 2em;
+	width: 65%;
+	padding: 1em;
+	margin-bottom: 1em;
 	vertical-align: middle;
+	display: inline-block;
 }
 
 textarea {
 	width: 500px;
-	height: 200px;
+	height: 150px;
+	padding: 15px;
+}
+
+select{
+	width: 65%;
+    padding: 16px 20px;
+    border: line;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
