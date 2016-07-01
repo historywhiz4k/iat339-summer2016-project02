@@ -1,3 +1,4 @@
+
 body {
 	font-family: "Open Sans", sans-serif;
 	background-color: #ffffff;
@@ -99,11 +100,19 @@ figure{
 	width: 50%;
 }
 
-/*HOME PAGE SUB IMAGE*/
+/*NEWS TEXT FIELD CLASS*/
 .news-text{
 	float:left;
 	position: relative;
 	padding: 1em;
+	width: 100%;
+}
+
+/*LOGIN/SIGNUP FIELD CLASS*/
+.account{
+	text-align: center;
+	position: relative;
+	padding: 5em 0em 5em 15em;
 	width: 100%;
 }
 
@@ -236,6 +245,7 @@ figure{
 
 /*new content*/
 .footer{
+	position: relative;
 	background-color: #990000;
     color: #000000;
     text-align: center;
@@ -265,7 +275,7 @@ input[type=reset] {
 
 input[type=text],select {
 	height: 2em;
-	width: 65%;
+	width: 70%;
 	padding: 1em;
 	margin-bottom: 1em;
 	vertical-align: middle;
@@ -274,13 +284,13 @@ input[type=text],select {
 }
 
 textarea {
-	width: 500px;
+	width: 70%;
 	height: 150px;
 	padding: 15px;
 }
 
 select{
-	width: 65%;
+	width: 70%;
     padding: 16px 20px;
     border: line;
     border-radius: 4px;
