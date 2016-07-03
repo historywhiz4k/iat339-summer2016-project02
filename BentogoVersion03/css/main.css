@@ -227,6 +227,19 @@ figure{
 	background-color: #000000;
 }
 
+.footer-link, .footer-link:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	color: #000000;
+}
+
+.footer {
+	
+}
+
 .selected-bentobox {
 	background-color: #990000;
 }
