@@ -48,11 +48,15 @@
 	padding: 0em 3em 0em 0em;
 }
 
-.grid-listing {
+.grid-listing, .grid-order-listing {
 	width: 30em;
 	padding: 1em 1em;
 	background-color: #f2f2f2;
 	margin: 0em 1em 1em 0em;
+}
+
+.grid-order-listing {
+	width: 100%;
 }
 
 .grid-listing-name {
