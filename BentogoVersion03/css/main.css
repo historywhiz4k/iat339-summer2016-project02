@@ -88,7 +88,12 @@ figure{
 	position: relative;
 	display:inline-block;
 	padding: 1em;
-	width: 50%;
+	width: auto;
+}
+
+/*NEWSFEED HUB PAGE IMAGE*/
+.newsfeed-image-cont{
+	width: 100%;
 }
 
 /*NEWSFEED ARTICLE PAGE IMAGE*/
