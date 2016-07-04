@@ -19,7 +19,11 @@
 
 	<body>
 
+		<div class="reference-page">
+
 		<section id="top"></section>
+
+		<a href="index.html">&lt;&lt; Return to Homepage</a>
 
 		<h1>BENTOGO Style Guide</h1>
 
@@ -40,7 +44,6 @@
 				<p>Other Pages</p>
 
 				<ul>
-					<li><a href="userflows.html">User Flows</a></li>
 					<li><strong>Style Guide</strong></li>
 					<li><a href="citations.html">Citations</a></li>
 				</ul>
@@ -240,27 +243,25 @@
 
         	<code>
         	&lt;nav&gt;
-        	    &lt;a href="#account" class="button-nav"&gt;My Account&lt;/a&gt;
+        	    &lt;a href="#login" class="button-nav"&gt;Log In&lt;/a&gt;
         	    &lt;a href="#order" class="button-nav"&gt;My Order (0 Items)&lt;/a&gt;
         	    &lt;a href="#catalogue" class="button-nav"&gt;Bento Catalogue&lt;/a&gt;
         	    &lt;a href="#custom" class="button-nav"&gt;Custom Bento&lt;/a&gt;
-        	    &lt;a href="#about" class="button-nav"&gt;About Us&lt;/a&gt;
+        	    &lt;a href="#newsfeed" class="button-nav"&gt;Newsfeed&lt;/a&gt;
+        	    &lt;a href="#contact" class="button-nav"&gt;Contact Us&lt;/a&gt;
         	&lt;/nav&gt;
         	</code>
 
 			<h4>Rendered Element:</h4>
 
-			<div class="nav-grid">
-
 				<nav>
-					<a href="#account" class="button-nav">My Account</a>
+					<a href="#account" class="button-nav">Log In</a>
 					<a href="#order" class="button-nav">My Order (0 Items)</a>
 					<a href="#catalogue" class="button-nav">Bento Catalogue</a>
 					<a href="#custom" class="button-nav">Custom Bento</a>
-					<a href="#about" class="button-nav">About Us</a>
+					<a href="#newsfeed" class="button-nav">Newsfeed</a>
+					<a href="#contact" class="button-nav">Contact Us</a>
 				</nav>
-
-			</div>
 
 			</section>
 
@@ -271,19 +272,19 @@
 			<h4>Sample Code:</h4>
 
         	<code>
-        	&lt;div class="listing"&gt;
-        		&lt;div class="listing-img"&gt;
-        	    &lt;img src="img/img_product-listing001.jpg"&gt;
+        	&lt;div class="grid-listing"&gt;
+        		&lt;div class="grid-listing-img"&gt;
+        			&lt; a href="#productpage"&gt;
+        	    		&lt;img src="img/img_product-listing001.jpg" class="icon-size" alt="Classic Bento"&gt;
+        	    	&lt;/a&gt;
         	    &lt;/div&gt;
-
-        	    &lt;div class="listing-name"&gt;
-        	    &lt;h3&gt;Classic Bento&lt;/h3&gt;
+        	    &lt;div class="grid-listing-name"&gt;
+        	    &lt;strong&gt;Classic Bento&lt;/strong&gt;
         	    &lt;p&gt;&lt;strong&gt;$ 7.99&lt;/strong&gt;&lt;/p&gt;
         	    &lt;/div&gt;
-
-        	    &lt;div class="listing-description"&gt;
-        	    &lt;h4&gt;Description&lt;/h4&gt;
-        	    &lt;p&gt;Consists of white steamed rice with pickled plum, chicken, broccoli, rolled omlette, carrot salad with black sesame seeds, tomatoes and edamame beans. &lt;/p&gt;&lt;a href="#productpage"&gt;Go to product page.&lt;/a&gt;&lt;/p&gt;
+        	    &lt;div&gt;
+        	    &lt;a href="orderproduct" class="button-order"&gt;Order&lt;/a&gt;
+        	    &lt;a href="productpage" class="button-order"&gt;Info&lt;/a&gt;
         	    &lt;/div&gt;
         	 &lt;/div&gt;
  
@@ -292,23 +293,20 @@
 
 			<h4>Rendered Element:</h4>
 
-			<div class="listing">
-
-				<div class="listing-img">
-					<img src="img/img_product-listing001.jpg">
+			<div class="grid-listing">
+				<div class="grid-listing-img">
+					<a href="#productpage">
+						<img src="img/img_product-listing001.jpg" class="icon-size" alt="Classic Bento">
+					</a>
 				</div>
-
-				<div class="listing-name">
-					<h3>Classic Bento</h3>
+				<div class="grid-listing-name">
+					<strong>Classic Bento</strong>
 					<p><strong>$ 7.99</strong></p>
-					<a href="#order" class="button-order">Add to Order</a>
 				</div>
-
-				<div class="listing-description">
-					<h4>Description</h4>
-					<p>Consists of white steamed rice with pickled plum, chicken, broccoli, rolled omlette, carrot salad with black sesame seeds, tomatoes and edamame beans. <a href="#productpage">Go to product page.</a></p>
+				<div>
+					<a href="#orderproduct" class="button-order">Order</a>
+					<a href="#productpage" class="button-order">Info</a>
 				</div>
-
 			</div>
 
 			</section>
@@ -316,6 +314,8 @@
 		</section>
 
 		<a href="#top">Back to Top</a>
+
+		</div>
 
 	</body>
 
