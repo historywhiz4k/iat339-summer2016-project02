@@ -311,3 +311,26 @@ select{
     border-radius: 4px;
     background-color: #ffffff;
 }
+
+/*For Style Guide*/
+
+.reference-page {
+	padding: 0em 0em 0em 3em;
+}
+
+section {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+section:not([id]) {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 0.1em solid #333333;
+}
+
+section code {
+  background-color: #eeeeee;
+  padding: 0.5em 0.75em;
+  display: block;
+}
