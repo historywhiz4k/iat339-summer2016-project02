@@ -36,6 +36,7 @@
 .grid-content {
 	padding: 0em 0em 0em 20em;
 	margin: -1em 0em 0em 0em ;
+	min-height: 55em;
 }
 
 .grid-subcontent {
