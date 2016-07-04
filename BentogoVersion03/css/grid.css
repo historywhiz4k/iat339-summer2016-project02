@@ -139,6 +139,26 @@
 	padding: 1em 1em;
 }
 
+@media (max-width: 1000px){
+
+	.newsfeed-image{
+		width: 100%;
+	}
+
+	.newsfeed-image p{
+ 	position: absolute;
+ 	background-color: black;
+ 	font-size: 20px;
+    left: 0%;
+    top: 80%;
+    padding: 10px;
+    width: 75%;
+    color: #FFF;
+    margin: 0px;
+}
+
+}
+
 
 @media (max-width: 773px) {
 
@@ -189,6 +209,18 @@
 		position: relative;
 		padding: 2em;
 		width: 100%;
+	}
+
+	.newsfeed-image p{
+ 		position: absolute;
+ 		background-color: black;
+ 		font-size: 15px;
+    	left: 0%;
+    	top: 80%;
+    	padding: 10px;
+    	width: 75%;
+    	color: #FFF;
+    	margin: 0px;
 	}
 
 	.account{
@@ -301,5 +333,17 @@
 		display:inline-block;
 		padding: 0em;
 		width: 100%;
+	}
+
+	.newsfeed-image p{
+ 		position: absolute;
+ 		background-color: black;
+ 		font-size: 10px;
+    	left: 0%;
+    	top: 80%;
+    	padding: 10px;
+    	width: 75%;
+    	color: #FFF;
+    	margin: 0px;
 	}
 }
