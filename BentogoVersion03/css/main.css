@@ -108,11 +108,19 @@ figure{
 	width: 100%;
 }
 
-/*LOGIN/SIGNUP FIELD CLASS*/
+/*LOGIN FIELD CLASS*/
 .account{
 	text-align: center;
 	position: relative;
 	padding: 5em 0em 5em 15em;
+	width: 100%;
+}
+
+/*SIGNUP FIELD CLASS*/
+.new-account{
+	text-align: center;
+	position: relative;
+	padding: 5em 0em 5em 5em;
 	width: 100%;
 }
 

@@ -146,16 +146,16 @@
 	}
 
 	.newsfeed-image p{
- 	position: absolute;
- 	background-color: black;
- 	font-size: 20px;
-    left: 0%;
-    top: 80%;
-    padding: 10px;
-    width: 75%;
-    color: #FFF;
-    margin: 0px;
-}
+ 		position: absolute;
+ 		background-color: black;
+ 		font-size: 20px;
+    	left: 0%;
+    	top: 80%;
+    	padding: 10px;
+    	width: 75%;
+    	color: #FFF;
+    	margin: 0px;
+	}
 
 }
 
@@ -224,6 +224,13 @@
 	}
 
 	.account{
+		text-align: center;
+		position: relative;
+		padding: 5em 0em 5em 0em;
+		width: 100%;
+	}
+
+	.new-account{
 		text-align: center;
 		position: relative;
 		padding: 5em 0em 5em 0em;
