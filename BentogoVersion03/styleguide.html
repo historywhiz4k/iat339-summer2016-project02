@@ -58,19 +58,33 @@
 
 			<section>
 
-			<h3>Navigation Button</h3>
+			<h3>Navigation Bar Button</h3>
 
 			<h4>CSS Selector:</h4>
 			<p>.button-nav</p>
 
 			<h4>Sample Code:</h4>
-        	<code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+        	<code>&lt;a href="#" class="button-nav"&gt;Bento Catalogue&lt;/a&gt;</code>
 
 			<h4>Rendered Element:</h4>
 
-			<div class="nav-grid">
-				<a href="#default" class="button-nav">Default Button</a>
-			</div>
+				<a href="#default" class="button-nav">Bento Catalogue</a>
+
+			</section>
+
+			<section>
+
+			<h3>Main Button</h3>
+
+			<h4>CSS Selector:</h4>
+			<p>.button-order</p>
+
+			<h4>Sample Code:</h4>
+        	<code>&lt;a href="#" class="button-order"&gt;Order&lt;/a&gt;</code>
+
+			<h4>Rendered Element:</h4>
+
+				<a href="#default" class="button-order">Order</a>
 
 			</section>
 
@@ -79,11 +93,11 @@
 			<h3>In-Text Link</h3>
 
 			<h4>Sample Code:</h4>
-        	<code>&lt;a href="#"&gt;Default Link&lt;/a&gt;</code>
+        	<code>&lt;a href="#"&gt;Back to Step 1&lt;/a&gt;</code>
 
 			<h4>Rendered Element:</h4>
 
-			<a href="#">Default Link</a>
+			<a href="#">Back to Step 1</a>
 
 			</section>
 
@@ -116,16 +130,22 @@
 			<h4>Sample Code:</h4>
 
 			<code>
+			&lt;form&gt;
+				&lt;input type="text" id="searchkeyword" name="search" placeholder="Search keyword..."&gt;
+			&lt;/form&gt;
         	&lt;form&gt;
-				&lt;textarea placeholder="Input text here.&gt;
-				&lt;/textarea&gt;
+				&lt;textarea placeholder="Write your message here."&gt;&lt;/textarea&gt;
 			&lt;/form&gt;
 			</code>
 
-			<h4>Rendered Element:</h4>
+			<h4>Rendered Elements:</h4>
 
 			<form>
-				<textarea placeholder="Input text here."></textarea>
+				<input type="text" id="searchkeyword" name="search" placeholder="Search keyword...">
+			</form>
+
+			<form>
+				<textarea placeholder="Write your message here."></textarea>
 			</form>
 
 			</section>
@@ -170,12 +190,12 @@
 			<h4>Sample Code:</h4>
 
         	<code>
-        	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum gravida mollis. Nulla porttitor velit in augue lacinia volutpat. Phasellus aliquet bibendum lacus et ultrices. Morbi nec facilisis neque. Donec molestie eros et est dignissim, at finibus massa faucibus. Vivamus vitae leo et sapien tincidunt convallis vitae et massa. Sed eu est condimentum, condimentum felis non, consequat lorem. Nam sed elit eros.&lt;/p&gt;
+        	&lt;p&gt;When it comes to food in Japan, many people would think of sushi, ramen or the fantastic variety of alcoholic beverages. It may come as a shock, but like many westerners, Japanese people enjoy fried foods and is part of their main diet in a common household. If we have fried chicken in the west, then in the east, they have Karaage; a different take on one of the most iconic comfort foods ever.&lt;/p&gt;
         	</code>
 
         	<h4>Rendered Element:</h4>
 
-        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum gravida mollis. Nulla porttitor velit in augue lacinia volutpat. Phasellus aliquet bibendum lacus et ultrices. Morbi nec facilisis neque. Donec molestie eros et est dignissim, at finibus massa faucibus. Vivamus vitae leo et sapien tincidunt convallis vitae et massa. Sed eu est condimentum, condimentum felis non, consequat lorem. Nam sed elit eros.</p>
+        	<p>When it comes to food in Japan, many people would think of sushi, ramen or the fantastic variety of alcoholic beverages. It may come as a shock, but like many westerners, Japanese people enjoy fried foods and is part of their main diet in a common household. If we have fried chicken in the west, then in the east, they have Karaage; a different take on one of the most iconic comfort foods ever.</p>
 
 			</section>
 
@@ -267,6 +287,51 @@
 
 			<section>
 
+			<h3>Log In</h3>
+
+			<h4>Sample Code:</h4>
+
+        	<code>
+        	&lt;div class="account"&gt;
+			&lt;h2&gt;BENTOGO Sign-in&lt;/h2&gt;
+			&lt;form&gt;
+  				&lt;input type="text" id="name" name="name" value="BENTOGO ID"&gt;
+  				&lt;input type="text" id="email" name="email" value="Password"&gt;
+			&lt;/form&gt;
+			
+			&lt;a href="myaccount.html"&gt;
+			&lt;input type="submit" value="Submit"&gt;
+			&lt;/a&gt;
+
+			&lt;a href="login.html"&gt;
+			&lt;input type="reset" value="Cancel"&gt;
+			&lt;/a&gt;
+			&lt;/div&gt;
+        	</code>
+
+			<h4>Rendered Element:</h4>
+
+			<div class="account">
+			<h2>BENTOGO Sign-in</h2>
+			<form>
+  				<input type="text" id="name" name="name" value="BENTOGO ID">
+  				<input type="text" id="email" name="email" value="Password">
+			</form>
+			
+			<a href="myaccount.html">
+			<input type="submit" value="Submit"> 
+			</a>
+
+			<a href="login.html">
+			<input type="reset" value="Cancel"> 
+			</a>
+
+			</div>
+
+			</section>
+
+			<section>
+
 			<h3>Product Listing</h3>
 
 			<h4>Sample Code:</h4>
@@ -293,7 +358,8 @@
 
 			<h4>Rendered Element:</h4>
 
-			<div class="grid-listing">
+			<div class="grid-listing no-float" style="
+			float: none;">
 				<div class="grid-listing-img">
 					<a href="#productpage">
 						<img src="img/img_product-listing001.jpg" class="icon-size" alt="Classic Bento">
@@ -307,6 +373,58 @@
 					<a href="#orderproduct" class="button-order">Order</a>
 					<a href="#productpage" class="button-order">Info</a>
 				</div>
+			</div>
+
+			</section>
+
+			<section>
+
+			<h3>Message Form</h3>
+
+			<h4>Sample Code:</h4>
+
+        	<code>
+        	&lt;div class="news-articleimage"&gt;
+			&lt;h2&gt;Message Form&lt;/h2&gt;
+			&lt;form&gt;
+  				&lt;input type="text" id="name" name="name" value="Your name (e.g. John Doe)"&gt;
+  				&lt;input type="text" id="email" name="email" value="Your e-mail address"&gt;
+  				&lt;input type="text" id="url" name="url" value="Website URL (optional)"&gt;
+  				&lt;input type="text" id="phone" name="phone" value="Phone Number (optional)"&gt;
+  				&lt;select id="reason" name ="reason"&gt;
+  					&lt;option value ="item"&gt;Select a topic&lt;/option&gt;
+  					&lt;option value ="item"&gt;Product Inquiry&lt;/option&gt;
+  					&lt;option value ="item"&gt;Catering&lt;/option&gt;
+  					&lt;option value ="item"&gt;News/Event Tip&lt;/option&gt;
+  					&lt;option value ="item"&gt;Other&lt;/option&gt;
+  				&lt;/select&gt;
+  				&lt;textarea&gt;Write your message here&lt;/textarea&gt;
+			&lt;/form&gt;
+			&lt;input type="submit" value="Submit"&gt;
+				&lt;input type="reset" value="Reset"&gt;
+			&lt;/div&gt;
+        	</code>
+
+			<h4>Rendered Element:</h4>
+
+			<div class="news-articleimage" style=" float: none;">
+			<h2>Message Form</h2>
+			<form>
+  				<input type="text" id="name" name="name" value="Your name (e.g. John Doe)">
+  				<input type="text" id="email" name="email" value="Your e-mail address">
+  				<input type="text" id="url" name="url" value="Website URL (optional)">
+  				<input type="text" id="phone" name="phone" value="Phone Number (optional)">
+  				<select id="reason" name ="reason">
+  					<option value ="item">Select a topic</option>
+  					<option value ="item">Product Inquiry</option>
+  					<option value ="item">Catering</option>
+  					<option value ="item">News/Event Tip</option>
+  					<option value ="item">Other</option>
+  				</select>
+  				<textarea>Write your message here</textarea>
+			</form>
+			<input type="submit" value="Submit"> 
+				<input type="reset" value="Reset"> 
 			</div>
 
 			</section>
